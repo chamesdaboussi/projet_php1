@@ -15,7 +15,7 @@ if(!$con)
 // $result=mysqli_query($con,$sql);
 // $sql="INSERT INTO agenda (nom,prenom,adresse,age,telephone) VALUES ('ibtissem','bridi','tunis',20,'5566777')";
 // $result=mysqli_query($con,$sql);
-$sql="SELECT * FROM agende ORDER BY nom";
+$sql="SELECT * FROM agenda ORDER BY nom";
 $result=mysqli_query($con,$sql);
 while($row=mysqli_fetch_array($result))
     {
